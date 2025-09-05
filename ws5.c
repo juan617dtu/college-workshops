@@ -82,7 +82,7 @@ int main(void)
         total_evening_rate += evening_rate[k];
     }
     printf("Morning total rating: %.3lf\n", total_morning_rate);
-    printf("Evening total rating: %.3lf\n", total_evening_rate);
+    printf("Evening total rating:  %.3lf\n", total_evening_rate);
     printf("----------------------------\n");
     printf("Overall total rating: %.3lf\n\n", total_morning_rate + total_evening_rate);
     const double avg_morning_rate = total_morning_rate / LOG_DAYS;
