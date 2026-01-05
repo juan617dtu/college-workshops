@@ -1,0 +1,3 @@
+C language program that stores values in variables of the appropriate
+data type, performs calculations on the stored variables, and apply relational and logical expressions to determine the
+true or false result of various test case scenarios.
