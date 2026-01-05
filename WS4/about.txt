@@ -1,0 +1,2 @@
+A C language program that accepts data input from the user, stores the values in variables of the appropriate data type, apply the necessary sequence, selection, and iteration routines to
+enforce the logic and rules stated in the problem, and produce a working solution that displays the desired output.
