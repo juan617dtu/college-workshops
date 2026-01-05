@@ -1,0 +1,5 @@
+Workshop 2:
+
+C language program that accepts numerical values from the user, stores
+the values in variables of the appropriate data type, performs monetary calculations on the stored variables (including
+the modulus operator) and casts one data type to another
