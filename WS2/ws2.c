@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <math.h>
-//to fix third line of tax
+
 int main(void)
 {
     const double TAX = 0.13;
