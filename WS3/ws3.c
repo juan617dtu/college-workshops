@@ -71,12 +71,12 @@ int main(void)
     printf("  |      Coffee     |  Packaged   | With  |\n");
     printf("ID|      Type       | Bag Weight  | Cream |\n");
     printf("--+-----------------+-------------+-------+\n");
-    printf(" 1|        %d       |      %d     |   %d  |\n", coffee_strength == 'L' ? 1 : 0,
-        daily_servings > 0 && daily_servings < 5? 1 : 0, coffee_with_cream == 'Y'? 1 : 0);
-    printf(" 2|        %d       |      %d     |   %d  |\n", coffee_strength == 'R' ? 1 : 0,
-        daily_servings > 4 && daily_servings < 10? 1 : 0, coffee_with_cream == 'Y'? 1 : 0);
-    printf(" 3|        %d       |      %d     |   %d  |\n", coffee_strength == 'M' ? 1 : 0,
-        daily_servings > 10 ? 1 : 0, coffee_with_cream == 'Y'? 1 : 0);
+    printf(" 1|        %d        |      %d      |   %d   |\n", coffee_strength == 'L' ? 1 : 0,
+        daily_servings > 0 && daily_servings < 5? 1 : 0, coffee_with_cream == cream1 ? 1 : 0);
+    printf(" 2|        %d        |      %d      |   %d   |\n", coffee_strength == 'R' ? 1 : 0,
+        daily_servings > 4 && daily_servings < 10? 1 : 0, coffee_with_cream == cream2 ? 1 : 0);
+    printf(" 3|        %d        |      %d      |   %d   |\n", coffee_strength == 'M' ? 1 : 0,
+        daily_servings > 10 ? 1 : 0, coffee_with_cream == cream3 ? 1 : 0);
 
     printf("\n\nEnter how you like your coffee...\n\n");
     printf("Coffee strength ([L]ight, [M]edium, [R]ich): ");
@@ -92,12 +92,12 @@ int main(void)
     printf("  |      Coffee     |  Packaged   | With  |\n");
     printf("ID|      Type       | Bag Weight  | Cream |\n");
     printf("--+-----------------+-------------+-------+\n");
-    printf(" 1|        %d       |      %d     |   %d  |\n", coffee_strength == 'L' ? 1 : 0,
-        daily_servings > 0 && daily_servings < 5? 1 : 0, coffee_with_cream == 'Y'? 1 : 0);
-    printf(" 2|        %d       |      %d     |   %d  |\n", coffee_strength == 'R' ? 1 : 0,
-        daily_servings > 4 && daily_servings < 10? 1 : 0, coffee_with_cream == 'Y'? 1 : 0);
-    printf(" 3|        %d       |      %d     |   %d  |\n", coffee_strength == 'M' ? 1 : 0,
-        daily_servings > 10 ? 1 : 0, coffee_with_cream == 'Y'? 1 : 0);
+    printf(" 1|        %d        |      %d      |   %d   |\n", coffee_strength == 'L' ? 1 : 0,
+        daily_servings > 0 && daily_servings < 5? 1 : 0, coffee_with_cream == cream1 ? 1 : 0);
+    printf(" 2|        %d        |      %d      |   %d   |\n", coffee_strength == 'R' ? 1 : 0,
+        daily_servings > 4 && daily_servings < 10? 1 : 0, coffee_with_cream == cream2 ? 1 : 0);
+    printf(" 3|        %d        |      %d      |   %d   |\n", coffee_strength == 'M' ? 1 : 0,
+        daily_servings > 10 ? 1 : 0, coffee_with_cream == cream3 ? 1 : 0);
 
     printf("\nHope you found a product that suits your likes!");
 
