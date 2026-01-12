@@ -66,7 +66,7 @@ int main(void)
     coffee_with_cream = toupper(coffee_with_cream);
     printf("Typical number of daily servings: ");
     scanf("%d", &daily_servings);
-    printf("\nThe below table shows how your preferences align to the available products:");
+    printf("\nThe below table shows how your preferences align to the available products:\n");
     printf("--------------------+-------------+-------+\n");
     printf("  |      Coffee     |  Packaged   | With  |\n");
     printf("ID|      Type       | Bag Weight  | Cream |\n");
@@ -87,7 +87,7 @@ int main(void)
     coffee_with_cream = toupper(coffee_with_cream);
     printf("Typical number of daily servings: ");
     scanf("%d", &daily_servings);
-    printf("\nThe below table shows how your preferences align to the available products:");
+    printf("\nThe below table shows how your preferences align to the available products:\n");
     printf("--------------------+-------------+-------+\n");
     printf("  |      Coffee     |  Packaged   | With  |\n");
     printf("ID|      Type       | Bag Weight  | Cream |\n");
