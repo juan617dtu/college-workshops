@@ -8,7 +8,7 @@ How many ORANGES do you need? : -1
 ERROR: Value must be 0 or more.
 How many ORANGES do you need? : 0
 
-How many PEARS do you need? : 1 -1
+How many PEARS do you need? : -1
 ERROR: Value must be 0 or more.
 How many PEARS do you need? : 5
 
