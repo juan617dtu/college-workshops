@@ -10,7 +10,7 @@ three values (space delimited):  -1 0 24
 
 TEST-1: -1 0 24
 ERROR: Enter a positive value: ERROR: Enter a positive value: <PASSED>
-TEST-2: -1 - 0 24
+TEST-2: -1 0 24
 ERROR: Enter a positive value: ERROR: Enter a positive value: <PASSED>
 TEST-3: -1 0 24
 ERROR: Enter a positive value: ERROR: Enter a positive value: <PASSED>
@@ -59,10 +59,10 @@ Cat Food Product #1
 --------------------
 SKU           : 0
 ERROR: Enter a positive value: 12221
-PRICE         : $2 0
+PRICE         : $0
 ERROR: Enter a positive value: 26.99
 WEIGHT (LBS)  : 0
-ERROR: Enter a positive value: 2.6 5
+ERROR: Enter a positive value: 2.5
 CALORIES/SERV.: 0
 ERROR: Enter a positive value: 325
 
