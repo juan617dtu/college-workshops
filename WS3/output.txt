@@ -4,7 +4,7 @@ Take a Break - Coffee Shop
 Enter the coffee product information being sold today...
 
 COFFEE-1...
-Type ([L]ight,[M]edium,[R]ich): 1 l
+Type ([L]ight,[M]edium,[R]ich): l
 Bag weight (g): 250
 Best served with cream ([Y]es,[N]o): y
 
