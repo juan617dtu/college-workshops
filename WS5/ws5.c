@@ -74,7 +74,7 @@ int main(void)
         }
         day++;
     }
-    printf("\n\nSummary\n=======\n");
+    printf("\nSummary\n=======\n");
     for (int j = 0; j < LOG_DAYS; j++) {
         total_morning_rate += morning_rate[j];
     }
@@ -90,7 +90,7 @@ int main(void)
     const double avg_evening_rate = total_evening_rate / LOG_DAYS;
     printf("Average evening rating:  %.1lf\n", avg_evening_rate);
     printf("----------------------------\n");
-    printf("Average overall rating:  %.1lf\n\n", (avg_morning_rate + avg_evening_rate) / 2);
+    printf("Average overall rating:  %.1lf\n", (avg_morning_rate + avg_evening_rate) / 2);
 
     return 0;
 }
