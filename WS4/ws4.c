@@ -65,8 +65,8 @@ int main(void)
                     apples == 0? j++ : printf("Looks like we still need some APPLES...\n");
                 }
             } printf("Great, that's the apples done!\n");
+            printf("\n");
         }
-        printf("\n");
 
         if (oranges > 0) {
             do {
@@ -85,8 +85,8 @@ int main(void)
                     printf("Looks like we still need some ORANGES...\n");
                 }
             } while (true);
+            printf("\n");
         }
-        //printf("\n");
 
         if (pears > 0) {
             while (true) {
@@ -105,8 +105,8 @@ int main(void)
                     printf("Looks like we still need some PEARS...\n");
                 }
             }
+            printf("\n");
         }
-        //printf("\n");
 
         if (tomatoes > 0) {
             while (true) {
@@ -125,8 +125,8 @@ int main(void)
                     printf("Looks like we still need some TOMATOES...\n");
                 }
             }
+            printf("\n");
         }
-        //printf("\n");
 
         if (cabbages > 0) {
             while (true) {
@@ -145,8 +145,9 @@ int main(void)
                     printf("Looks like we still need some CABBAGES...\n");
                 }
             }
+            printf("\n");
         }
-        printf("\nAll the items are picked!\n\n");
+        printf("All the items are picked!\n\n");
         printf("Do another shopping? (0=NO): ");
         scanf("%d", &ans);
         printf("\n");
