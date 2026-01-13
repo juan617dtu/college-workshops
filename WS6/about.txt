@@ -1,1 +1,2 @@
- C language program that implements a simple validation on a series of user input values that are stored to arrays and later analyzed to produce a variety of summary reports.
+C language program that implements a simple validation on a series of user input values that are stored to arrays and later analyzed to 
+produce a variety of summary reports.
