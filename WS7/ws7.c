@@ -122,7 +122,7 @@ int main(void) {
         printf("%d", game_info.treasure_position[n]);
     }
     printf("\n====================================\n~ Get ready to play TREASURE HUNT! ~\n"
-           "====================================\n");
+           "====================================");
 
     do {
 
