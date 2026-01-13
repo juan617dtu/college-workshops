@@ -64,7 +64,7 @@ void getCatFoodInfo(struct CatFoodInfo catFoodInfo[MAX_PRODS], const int size) {
 // 5. Display the formatted table header
 void displayCatFoodHeader(void)
 {
-    printf("SKU         $Price    Bag-lbs Cal/Serv\n");
+    printf("\nSKU         $Price    Bag-lbs Cal/Serv\n");
     printf("------- ---------- ---------- --------\n");
 }
 // 6. Display a formatted record of cat food data
