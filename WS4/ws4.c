@@ -17,7 +17,7 @@ int main(void)
             if (apples >= 0) break;
             printf("ERROR: Value must be 0 or more.\n");
         }
-        printf("\n\n");
+        printf("\n");
 
         do {
             printf("How many ORANGES do you need? : ");
@@ -25,7 +25,7 @@ int main(void)
             if (oranges >= 0) break;
             printf("ERROR: Value must be 0 or more.\n");
         } while (true);
-        printf("\n\n");
+        printf("\n");
 
         for (int i = 0; i == 0;) {
             printf("How many PEARS do you need? : ");
@@ -33,7 +33,7 @@ int main(void)
             if (pears >= 0) i++;
             else printf("ERROR: Value must be 0 or more.\n");
         }
-        printf("\n\n");
+        printf("\n");
 
         while (1) {
             printf("How many TOMATOES do you need? : ");
@@ -41,7 +41,7 @@ int main(void)
             if (tomatoes >= 0) break;
             printf("ERROR: Value must be 0 or more.\n");
         }
-        printf("\n\n");
+        printf("\n");
 
         do {
             printf("How many CABBAGES do you need? : ");
@@ -86,7 +86,7 @@ int main(void)
                 }
             } while (true);
         }
-        printf("\n");
+        //printf("\n");
 
         if (pears > 0) {
             while (true) {
@@ -106,7 +106,7 @@ int main(void)
                 }
             }
         }
-        printf("\n");
+        //printf("\n");
 
         if (tomatoes > 0) {
             while (true) {
@@ -126,7 +126,7 @@ int main(void)
                 }
             }
         }
-        printf("\n");
+        //printf("\n");
 
         if (cabbages > 0) {
             while (true) {
@@ -152,7 +152,7 @@ int main(void)
         printf("\n");
     } while (ans != 0);
 
-    printf("\nYour tasks are done for today - enjoy your free time!\n");
+    printf("Your tasks are done for today - enjoy your free time!\n");
 
     return 0;
 }
