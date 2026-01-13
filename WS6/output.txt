@@ -34,7 +34,7 @@ Item-1 Details:
    Does this item have financing options? [y/n]: n
 
 Item-2 Details:
-   Item cost: $99.999 
+   Item cost: $99.99
       ERROR: Cost must be at least $100.00
    Item cost: $1200000
    How important is it to you? [1=must have, 2=important, 3=want]: 3
