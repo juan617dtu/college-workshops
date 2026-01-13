@@ -191,7 +191,5 @@ int main(void)
 		}
 	} while (forecast_option != 0);
 
-	printf("\nBest of luck in all your future endeavours!\n");
-
     return 0;
 }
