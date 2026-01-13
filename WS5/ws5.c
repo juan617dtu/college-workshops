@@ -21,10 +21,10 @@ int main(void)
         if (month < JAN || month > DEC) printf("   ERROR: Jan.(1) - Dec.(12)\n");
         if (year >= MIN_YEAR && year <= MAX_YEAR && month >= 1 && month <= 12) break;
     }
-    printf("\n*** Log date set! ***");
+    printf("\n*** Log date set! ***\n");
 
     for (int i = 0; i < LOG_DAYS; i++) {
-        printf("\n\n%d-", year);
+        printf("\n%d-", year);
         switch (month) {
             case 1: printf("JAN-");
                 break;
@@ -90,7 +90,7 @@ int main(void)
     const double avg_evening_rate = total_evening_rate / LOG_DAYS;
     printf("Average evening rating:  %.1lf\n", avg_evening_rate);
     printf("----------------------------\n");
-    printf("Average overall rating:  %.1lf\n", (avg_morning_rate + avg_evening_rate) / 2);
+    printf("Average overall rating:  %.1lf\n\n", (avg_morning_rate + avg_evening_rate) / 2);
 
     return 0;
 }
