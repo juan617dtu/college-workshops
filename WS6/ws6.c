@@ -39,9 +39,9 @@ int main(void)
 	} while (1);
 
 	while (1) {
-		printf("\n\nHow many wish list items do you want to forecast?: ");
+		printf("\nHow many wish list items do you want to forecast?: ");
 		scanf("%d", &items);
-		if (items < 1 || items > MAX_ITEMS) printf("ERROR: List is restricted to between 1 and 10 items.");
+		if (items < 1 || items > MAX_ITEMS) printf("ERROR: List is restricted to between 1 and 10 items.\n");
 		else { break; }
 	}
 	for (int i = 0; i < items; i++) {
