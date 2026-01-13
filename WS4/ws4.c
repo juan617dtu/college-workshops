@@ -50,7 +50,7 @@ int main(void)
             printf("ERROR: Value must be 0 or more.\n");
         } while (1);
 
-        printf("\n\n--------------------------\nTime to pick the products!\n--------------------------\n\n");
+        printf("\n--------------------------\nTime to pick the products!\n--------------------------\n\n");
 
         if (apples > 0) {
             for (int j = 0; j == 0;) {
