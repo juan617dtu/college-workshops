@@ -40,7 +40,7 @@ int main(void)
     scanf(" %c",&cream3);
     cream3 = toupper(cream3);
 
-    printf("\n\n");
+    printf("\n");
     printf("---+------------------------+---------------+-------+\n");
     printf("   | Coffee                 | Packaged      | Best  |\n");
     printf("   | Type                   | Bag Weight    | Served|\n");
@@ -66,7 +66,7 @@ int main(void)
     coffee_with_cream = toupper(coffee_with_cream);
     printf("Typical number of daily servings: ");
     scanf("%d", &daily_servings);
-    printf("\nThe below table shows how your preferences align to the available products:\n");
+    printf("\nThe below table shows how your preferences align to the available products:\n\n");
     printf("--------------------+-------------+-------+\n");
     printf("  |      Coffee     |  Packaged   | With  |\n");
     printf("ID|      Type       | Bag Weight  | Cream |\n");
@@ -78,7 +78,7 @@ int main(void)
     printf(" 3|        %d        |      %d      |   %d   |\n", coffee_strength == 'M' ? 1 : 0,
         daily_servings > 10 ? 1 : 0, coffee_with_cream == cream3 ? 1 : 0);
 
-    printf("\n\nEnter how you like your coffee...\n\n");
+    printf("\nEnter how you like your coffee...\n\n");
     printf("Coffee strength ([L]ight, [M]edium, [R]ich): ");
     scanf(" %c",&coffee_strength);
     coffee_strength = toupper(coffee_strength);
