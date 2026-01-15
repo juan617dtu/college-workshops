@@ -1,3 +1,7 @@
+//
+// Created by masti on 9/29/2025.
+//
+
 #define _CRT_SECURE_NO_WARNINGS
 
 
@@ -181,7 +185,7 @@ void displayFinalAnalysis(const struct CatFoodInfo product_data) {
     printf("Happy shopping!\n");
 }
 // ----------------------------------------------------------------------------
-// 17. Logic entry point
+// 7. Logic entry point
 void start(void) {
 
     struct CatFoodInfo cat_food_info[MAX_PRODS] = {0};
