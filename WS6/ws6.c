@@ -17,7 +17,7 @@ bool find_first_instance(char arr[], const int size, const char target) {
 int main(void)
 {
 	const double min_income = 500.00, max_income = 400000.00, min_cost = 100.00;
-	double monthly_income, cost[MAX_ITEMS], total = 0, priority_total = 0.0;
+	double monthly_income, cost[MAX_ITEMS], total = 0, priority_total;
 	int items, priority[MAX_ITEMS], forecast_option, months, years, leftover_months, priority_option;
 	char finance_option[MAX_ITEMS];
 	bool flag = false;
