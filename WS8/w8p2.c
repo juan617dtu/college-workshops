@@ -1,3 +1,7 @@
+//
+// Created by masti on 9/29/2025.
+//
+
 #define _CRT_SECURE_NO_WARNINGS
 
 
@@ -64,7 +68,7 @@ void getCatFoodInfo(struct CatFoodInfo catFoodInfo[MAX_PRODS], const int size) {
 // 5. Display the formatted table header
 void displayCatFoodHeader(void)
 {
-    printf("\nSKU         $Price    Bag-lbs Cal/Serv\n");
+    printf("SKU         $Price    Bag-lbs Cal/Serv\n");
     printf("------- ---------- ---------- --------\n");
 }
 // 6. Display a formatted record of cat food data
@@ -175,7 +179,8 @@ void displayReportData(const struct ReportData report_data, const int is_cheapes
 // 17. Display the findings (cheapest)
 void displayFinalAnalysis(const struct CatFoodInfo product_data) {
 
-    printf("\nFinal Analysis\n--------------\nBased on the comparison data, the PURRR-fect economical option is:");
+    printf("\nFinal Analysis\n--------------\n"
+           "Based on the comparison data, the PURRR-fect economical option is:");
     printf("\nSKU: %07d Price: $%.2lf\n\n", product_data.product_sku, product_data.product_price);
     printf("Happy shopping!\n");
 }
