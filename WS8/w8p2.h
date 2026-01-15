@@ -30,19 +30,19 @@ struct ReportData {
 int getIntPositive(int *ptr);
 double getDoublePositive(double *ptr);
 void openingMessage(void);
-void getCatFoodInfo(struct CatFoodInfo catFoodInfo[], const int size);
+void getCatFoodInfo(struct CatFoodInfo catFoodInfo[], int size);
 void displayCatFoodHeader(void);
 void displayCatFoodData(int sku, double price, double lbs, int calories);
 double convertLbsKg(const double *lbs, double *kgs);
 int convertLbsG(const double *lbs, int *grams);
 void convertLbs(const double *lbs, double *kgs, int *grams);
-double calculateServings(const int serving_size_grams, const int total_grams, double *result);
+double calculateServings(int serving_size_grams, int total_grams, double *result);
 double calculateCostPerServing(const double *product_price, const double *total_servings, double *result);
 double calculateCostPerCal(const double *product_price, const double *total_calories, double *result);
-struct ReportData calculateReportData(const struct CatFoodInfo product_data);
+struct ReportData calculateReportData(struct CatFoodInfo product_data);
 void displayReportHeader(void);
-void displayReportData(const struct ReportData report_data, const int is_cheapest_option);
-void displayFinalAnalysis(const struct CatFoodInfo product_data);
+void displayReportData(struct ReportData report_data, int is_cheapest_option);
+void displayFinalAnalysis(struct CatFoodInfo product_data);
 void start();
 
 #endif //W8P2_H
