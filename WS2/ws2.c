@@ -59,7 +59,7 @@ int main(void)
     printf("%33.4lf %9.4lf %9.4lf\n\n", (float)subtotal_total / 100.0, (float)tax_total / 100.0,
         (float)total_total / 100.0);
 
-    printf("\n\nDaily retail sales represented by coins\n=======================================\n\n");
+    printf("Daily retail sales represented by coins\n=======================================\n\n");
     printf("Sales EXCLUDING tax\n");
     printf("Coin     Qty   Balance\n");
     printf("-------- --- ---------\n");
