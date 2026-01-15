@@ -18,7 +18,6 @@ Type ([L]ight,[M]edium): m
 Bag weight (g): 1000
 Best served with cream ([Y]es,[N]o): n
 
-
 ---+------------------------+---------------+-------+
    | Coffee                 | Packaged      | Best  |
    | Type                   | Bag Weight    | Served|
@@ -29,7 +28,6 @@ ID | Light  | Medium | Rich | (G)   | Lbs   | Cream |
  2 |   0    |   0    |   1  |  500  |  1.102|   0   |
  3 |   0    |   1    |   0  | 1000  |  2.205|   0   |
 
-
 Enter how you like your coffee...
 
 Coffee strength ([L]ight, [M]edium, [R]ich): L
@@ -37,6 +35,7 @@ Do you like your coffee with cream ([Y]es,[N]o): y
 Typical number of daily servings: 2
 
 The below table shows how your preferences align to the available products:
+
 --------------------+-------------+-------+
   |      Coffee     |  Packaged   | With  |
 ID|      Type       | Bag Weight  | Cream |
@@ -45,7 +44,6 @@ ID|      Type       | Bag Weight  | Cream |
  2|        0        |      0      |   0   |
  3|        0        |      0      |   0   |
 
-
 Enter how you like your coffee...
 
 Coffee strength ([L]ight, [M]edium, [R]ich): M
@@ -53,6 +51,7 @@ Do you like your coffee with cream ([Y]es,[N]o): n
 Typical number of daily servings: 12
 
 The below table shows how your preferences align to the available products:
+
 --------------------+-------------+-------+
   |      Coffee     |  Packaged   | With  |
 ID|      Type       | Bag Weight  | Cream |
