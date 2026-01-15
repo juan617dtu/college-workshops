@@ -1,7 +1,3 @@
-//
-// Created by masti on 9/29/2025.
-//
-
 #define _CRT_SECURE_NO_WARNINGS
 
 
